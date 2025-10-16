@@ -1,4 +1,4 @@
-tokenizers==0.13.3 //スマホ専用
+tokenizers==0.13.3
 
 rapidfuzz==3.13.0
 spacy==3.8.7
