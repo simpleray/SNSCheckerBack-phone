@@ -1,0 +1,52 @@
+# entity_ruler.yml
+
+- label: station
+  pattern: [{"TEXT": {"REGEX": ".*駅$"}}]
+
+- label: hospital
+  pattern: [{"TEXT": {"REGEX": ".*病院$",".*クリニック$",".*医院$",".*診療所$",".*医療センター$",".*メディカルセンター$",".*メディカルクリニック$",
+                ".*メディカルクリニック$",".*医務室$"}}]
+
+
+# 日付
+- label: DATE
+  pattern: "明日"
+- label: DATE
+  pattern: "明後日" 
+- label: DATE
+  pattern: "明々後日"
+- label: DATE
+  pattern: "今日"
+- label: DATE
+  pattern: "昨日"
+- label: DATE
+  pattern: "一昨日"
+- label: DATE
+  pattern: "今週"
+- label: DATE
+  pattern: "来週"
+- label: DATE
+  pattern: "再来週"
+- label: DATE
+  pattern: "先週"
+- label: DATE
+  pattern: "先々週"
+- label: DATE
+  pattern: "来月"
+- label: DATE
+  pattern: "再来月" 
+- label: DATE
+  pattern: "先月" 
+- label: DATE
+  pattern: "先々月" 
+- label: DATE
+  pattern: "今年" 
+- label: DATE
+  pattern: "来年"
+- label: DATE
+  pattern: "再来年"  
+- label: DATE
+  pattern: "去年"
+- label: DATE
+  pattern: "一昨年"
+

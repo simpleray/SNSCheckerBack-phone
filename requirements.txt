@@ -1,0 +1,16 @@
+rapidfuzz==3.13.0
+spacy==3.8.7
+openai==1.101.0
+python_dateutil==2.9.0
+PyYAML==6.0.2
+spacy[ja]
+tzdata==2023.3
+sudachipy==0.6.10
+sudachidict_core==20250515
+ginza==5.2.0
+ja_ginza_electra==5.2.0
+ja_ginza==5.2.0
+dateparser==1.1.6
+fastapi==0.116.1
+fastapi[standard]
+
